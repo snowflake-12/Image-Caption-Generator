@@ -1,0 +1,72 @@
+.body {
+    background: #0f1228;
+    overflow-x: hidden;
+    color: #e7e9f0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.cards{
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    font-family: sans-serif;
+}
+
+.card{
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+.card:hover {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+  }
+
+.card-image{
+    width: 100%;
+    display: block;
+
+}
+.card-content{
+    line-height: 1.5;
+    font-size: 30px;
+    padding: 15px;
+    background: #c5aeae;
+    color: black;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.head-image {
+    width: 250px;
+}
+
+.button-text{
+    padding: 8px 15px;
+    font-size: 15px;
+    width: 250px;
+    border-width: 0;
+    background: blue;
+    color: #e7e9f0;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(red, green, blue, 0.5);
+}
+.button-text:hover {
+    background-color: dodgerblue;
+}
+
+.caption-text {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 25px 0 15px 0;
+}
+
